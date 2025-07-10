@@ -1,10 +1,7 @@
 # 人体关键点识别
 
-# humble
 
 source /opt/tros/humble/setup.bash
-
-\# 打开摄像头
 export CAM\_TYPE=usb
 
 # 启动关键点检测
@@ -34,7 +31,7 @@ python3 shipin.py
 
 
 
-\# 动作复刻
+# 动作复刻
 cd /userdata/pyx\_ws
 
 source /opt/tros/humble/setup.bash
